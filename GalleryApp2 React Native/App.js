@@ -13,11 +13,11 @@ export default class App extends React.Component {
       return (
          <View>
             <PresentationalComponent myState = {this.state.myState} updateState = {this.updateState}/>
-              <Image style = {{width: 450, height: 300}} source = { this.state.myState} />
-              <Button
-                title="Press me"
-                onPress={() => this.setState({myState: require('./img/fox.jpg')})}
-              />
+			 <Image style = {{width: 450, height: 450}} source = { this.state.myState} />
+			 <Button
+        title="Press me"
+        onPress={() => this.setState({myState: require('./img/fox.jpg')})}
+      />
 			         </View>
 		
       );
