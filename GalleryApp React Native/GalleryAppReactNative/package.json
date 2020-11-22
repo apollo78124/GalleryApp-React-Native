@@ -13,7 +13,8 @@
     "fs": "0.0.1-security",
     "react": "16.13.1",
     "react-native": "0.63.3",
-    "react-native-fs": "^2.16.6"
+    "react-native-fs": "^2.16.6",
+    "react-native-swipe-gestures": "^1.0.5"
   },
   "devDependencies": {
     "@babel/core": "^7.12.7",
