@@ -26,7 +26,7 @@ export default class App extends React.Component {
 
    imageRight = () => {
      if (this.state.currentPosition > this.state.photoList.length -2) {
-      this.setState({currentPosition: 0});
+      this.state.currentPosition = 0;
      } else {
       this.state.currentPosition++;
      }
